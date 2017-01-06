@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HuahuaTv</string>
+    <string-array name="col_name">
+        <item>Hot</item>
+        <item>category</item>
+        <item>Lives</item>
+        <item>Mine</item>
+    </string-array>
+</resources>

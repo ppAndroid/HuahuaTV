@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/pplab/android/HuahuaTv/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\Users\\songhua2\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\pplab\\android\\HuahuaTv\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\Users\\songhua2\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\pplab\\android\\HuahuaTv\\app\\.externalNativeBuild\\cmake\\release\\x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain D:/Users/songhua2/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Users/songhua2/AppData/Local/Android/sdk/ndk-bundle/platforms/android-21/arch-x86  -Dnative_lib_EXPORTS -isystem D:\\Users\\songhua2\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Users\\songhua2\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Users\\songhua2\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -std=c++11 -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/pplab/android/HuahuaTv/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/pplab/android/HuahuaTv/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "D:/pplab/android/HuahuaTv/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "3567980469"
+		}
+	},
+	"toolchains" : 
+	{
+		"3567980469" : 
+		{
+			"cCompilerExecutable" : "D:/Users/songhua2/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Users/songhua2/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
