@@ -7,4 +7,5 @@
         <item>直播</item>
         <item>我的</item>
     </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

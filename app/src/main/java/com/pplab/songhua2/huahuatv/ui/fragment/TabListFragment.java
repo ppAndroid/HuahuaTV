@@ -1,16 +1,10 @@
-package com.pplab.songhua2.huahuatv.fragment;
+package com.pplab.songhua2.huahuatv.ui.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.pplab.songhua2.huahuatv.R;
-import com.pplab.songhua2.huahuatv.base.BaseFragment;
 
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.RecyclerView;

@@ -4,7 +4,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.pplab.songhua2.huahuatv.fragment.TabListFragment;
+import com.pplab.songhua2.huahuatv.ui.fragment.LiveFragment;
+import com.pplab.songhua2.huahuatv.ui.fragment.TabListFragment;
 
 /**
  * author�� on 2016/9/8 09:43
@@ -24,7 +25,22 @@ public class MainFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        return new TabListFragment();
+        switch (position) {
+            case 0:
+                return new TabListFragment();
+
+            case 1:
+                return new TabListFragment();
+            case 2:
+                return new LiveFragment();
+
+            case 3:
+                return new TabListFragment();
+
+            default:
+                return new TabListFragment();
+        }
+     //   return new TabListFragment();
     }
 
     @Override

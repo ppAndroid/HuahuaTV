@@ -2,15 +2,11 @@ package com.pplab.songhua2.huahuatv;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
 import com.flyco.tablayout.CommonTabLayout;
 import com.flyco.tablayout.listener.CustomTabEntity;
-import com.pplab.songhua2.huahuatv.fragment.TabListFragment;
-import com.pplab.songhua2.huahuatv.MainFragmentPagerAdapter;
 
 import java.util.ArrayList;
 
